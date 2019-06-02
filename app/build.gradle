@@ -17,12 +17,12 @@
 apply plugin: 'com.android.application'
 
 def twaManifest = [
-    applicationId: 'org.chromium.twa.svgomg',
-    hostName: 'svgomg.firebaseapp.com', // The domain being opened in the TWA.
+    applicationId: 'com.hrItSolutions.didldu',
+    hostName: 'www.didldu.de', // The domain being opened in the TWA.
     launchUrl: '/', // The start path for the TWA. Must be relative to the domain.
-    name: 'SVGOMG TWA', // The name shown on the Android Launcher.
+    name: 'Didldu', // The name shown on the Android Launcher.
     themeColor: '#303F9F', // The color used for the status bar.
-    backgroundColor: '#bababa' // The color used for the splash screen background.
+    backgroundColor: '#ff0000' // The color used for the splash screen background.
 ]
 
 android {
@@ -32,7 +32,7 @@ android {
         minSdkVersion 16
         targetSdkVersion 28
         versionCode 3
-        versionName "1.1.1"
+        versionName "1.1"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
 
         // The name for the application on the Android Launcher
