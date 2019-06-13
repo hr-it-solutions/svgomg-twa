@@ -21,8 +21,8 @@ def twaManifest = [
     hostName: 'www.didldu.de', // The domain being opened in the TWA.
     launchUrl: '/', // The start path for the TWA. Must be relative to the domain.
     name: 'Didldu', // The name shown on the Android Launcher.
-    themeColor: '#303F9F', // The color used for the status bar.
-    backgroundColor: '#ff0000' // The color used for the splash screen background.
+    themeColor: '#0066dd', // The color used for the status bar.
+    backgroundColor: '#ffffff' // The color used for the splash screen background.
 ]
 
 android {
